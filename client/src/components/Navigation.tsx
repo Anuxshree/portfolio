@@ -67,6 +67,12 @@ export default function Navigation() {
               Projects
             </button>
             <button 
+              onClick={() => scrollToSection("leadership")}
+              className="text-slate-600 hover:text-primary transition-colors duration-300"
+            >
+              Leadership
+            </button>
+            <button 
               onClick={() => scrollToSection("experience")}
               className="text-slate-600 hover:text-primary transition-colors duration-300"
             >
@@ -116,6 +122,12 @@ export default function Navigation() {
                 className="text-slate-600 hover:text-primary transition-colors duration-300 text-left"
               >
                 Projects
+              </button>
+              <button 
+                onClick={() => scrollToSection("leadership")}
+                className="text-slate-600 hover:text-primary transition-colors duration-300 text-left"
+              >
+                Leadership
               </button>
               <button 
                 onClick={() => scrollToSection("experience")}

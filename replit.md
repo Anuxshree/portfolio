@@ -2,7 +2,7 @@
 
 ## Overview
 
-This is a personal portfolio website for Anushree T, an aspiring Data Scientist and Machine Learning enthusiast. The application is built using React with TypeScript for the frontend and Express.js for the backend, following a full-stack architecture. The portfolio showcases Anushree's education, skills, projects, internships, certifications, and achievements in the field of data science and machine learning.
+This is a personal portfolio website for Anushree T, an aspiring Data Scientist and Machine Learning enthusiast. The application is built using React with TypeScript for the frontend and Express.js for the backend, following a full-stack architecture. The portfolio showcases Anushree's education, skills, projects, leadership experience as Student Placement Coordinator, internships, certifications, and achievements in the field of data science and machine learning.
 
 ## User Preferences
 
