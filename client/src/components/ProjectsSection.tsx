@@ -16,7 +16,8 @@ export default function ProjectsSection() {
       tags: ["Python", "NLP", "AI/ML"],
       backgroundImage: "https://images.unsplash.com/photo-1555255707-c07966088b7b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=400",
       category: "AI/ML",
-      githubUrl: "https://github.com/Anuxshree/PitchMap"
+      githubUrl: "https://github.com/Anuxshree/PitchMap",
+      demoUrl: "/assets/project_video_1754801027933.mp4"
     },
     {
       title: "Snapnplate Detection",
@@ -102,9 +103,20 @@ export default function ProjectsSection() {
                     >
                       <i className="fab fa-github mr-2"></i>Code
                     </a>
-                    <button className="flex-1 py-2 px-4 border border-primary text-primary hover:bg-primary hover:text-white rounded-lg font-medium transition-all duration-300">
-                      <i className="fas fa-external-link-alt mr-2"></i>Demo
-                    </button>
+                    {project.demoUrl ? (
+                      <a 
+                        href={project.demoUrl}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="flex-1 text-center py-2 px-4 border border-primary text-primary hover:bg-primary hover:text-white rounded-lg font-medium transition-all duration-300"
+                      >
+                        <i className="fas fa-play mr-2"></i>Demo
+                      </a>
+                    ) : (
+                      <button className="flex-1 py-2 px-4 border border-primary text-primary hover:bg-primary hover:text-white rounded-lg font-medium transition-all duration-300 opacity-50 cursor-not-allowed">
+                        <i className="fas fa-external-link-alt mr-2"></i>Demo
+                      </button>
+                    )}
                   </div>
                 </div>
               </div>
