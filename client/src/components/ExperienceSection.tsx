@@ -53,7 +53,7 @@ export default function ExperienceSection() {
           
           {/* Internships Tab */}
           {activeTab === "internships" && (
-            <div className="grid md:grid-cols-2 gap-8">
+            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
               <div className="bg-white rounded-xl p-6 shadow-lg hover:shadow-xl transition-shadow duration-300">
                 <div className="flex items-start space-x-4">
                   <div className="bg-primary/10 rounded-lg p-3">
@@ -91,6 +91,27 @@ export default function ExperienceSection() {
                       <span className="px-2 py-1 bg-primary/10 text-primary rounded text-sm">NLP</span>
                       <span className="px-2 py-1 bg-accent/10 text-accent rounded text-sm">Python</span>
                       <span className="px-2 py-1 bg-success/10 text-success rounded text-sm">Teamwork</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+              <div className="bg-white rounded-xl p-6 shadow-lg hover:shadow-xl transition-shadow duration-300">
+                <div className="flex items-start space-x-4">
+                  <div className="bg-success/10 rounded-lg p-3">
+                    <i className="fas fa-handshake text-2xl text-success"></i>
+                  </div>
+                  <div className="flex-1">
+                    <h3 className="text-xl font-semibold text-secondary mb-2">Student Placement Coordinator</h3>
+                    <p className="text-success font-medium mb-3">Jai Shriram Engineering College</p>
+                    <p className="text-slate-600 mb-4 leading-relaxed">
+                      Coordinated 10+ recruitment drives, organized placement activities, and guided students through career development. 
+                      Led collaborative efforts between students and industry representatives.
+                    </p>
+                    <div className="flex flex-wrap gap-2">
+                      <span className="px-2 py-1 bg-primary/10 text-primary rounded text-sm">Leadership</span>
+                      <span className="px-2 py-1 bg-accent/10 text-accent rounded text-sm">Coordination</span>
+                      <span className="px-2 py-1 bg-success/10 text-success rounded text-sm">Mentoring</span>
                     </div>
                   </div>
                 </div>
@@ -143,7 +164,7 @@ export default function ExperienceSection() {
                   </div>
                   <div className="flex items-center space-x-3">
                     <i className="fas fa-users text-primary text-xl"></i>
-                    <span className="text-slate-600">Placement Coordinator & Student Guide</span>
+                    <span className="text-slate-600">Student Placement Coordinator - Coordinated 10+ recruitment drives</span>
                   </div>
                 </div>
               </div>

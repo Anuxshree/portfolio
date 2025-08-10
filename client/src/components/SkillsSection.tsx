@@ -40,6 +40,14 @@ export default function SkillsSection() {
       ]
     },
     {
+      title: "Leadership",
+      icon: "fas fa-users",
+      skills: [
+        { name: "Team Leadership", percentage: 88 },
+        { name: "Collaboration", percentage: 90 }
+      ]
+    },
+    {
       title: "Specialization",
       icon: "fas fa-brain",
       skills: [
@@ -72,7 +80,7 @@ export default function SkillsSection() {
             My <span className="text-primary">Skills</span>
           </h2>
           
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+          <div className="grid md:grid-cols-2 lg:grid-cols-5 gap-8">
             {skillCategories.map((category, index) => (
               <div 
                 key={index}

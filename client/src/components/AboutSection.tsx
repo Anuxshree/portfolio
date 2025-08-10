@@ -17,6 +17,10 @@ export default function AboutSection() {
                 With hands-on experience in data analysis and machine learning, I'm committed to leveraging 
                 data-driven insights to solve complex problems and drive positive outcomes in forward-thinking organizations.
               </p>
+              <p className="text-lg text-slate-600 leading-relaxed">
+                As a Student Placement Coordinator, I've successfully coordinated 10+ recruitment drives, demonstrating strong 
+                leadership, collaboration, and organizational skills while helping students achieve their career goals.
+              </p>
               
               <div className="flex flex-col sm:flex-row sm:items-center sm:space-x-6 space-y-2 sm:space-y-0 pt-4">
                 <div className="flex items-center space-x-2">
