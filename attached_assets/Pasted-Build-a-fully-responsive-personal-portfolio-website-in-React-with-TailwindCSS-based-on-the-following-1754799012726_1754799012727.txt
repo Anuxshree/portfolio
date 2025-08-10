@@ -1,0 +1,56 @@
+Build a fully responsive personal portfolio website in React with TailwindCSS based on the following details:
+
+Name: Anushree T
+Contact: 8754120542 | anushreethangavel@gmail.com
+LinkedIn: www.linkedin.com/in/anushree-t-529b32255
+GitHub: https://github.com/Anuxshree
+
+Professional Summary: Excited and focused on intermediate proficiency in programming and Scrum. Eager to build scalable solutions in team-based environments. Hands-on experience in handling data to generate insights with ML models. Committed and adaptable, willing to join a forward-thinking organization and apply problem-solving abilities to drive positive outcomes.
+
+Education:
+
+B.Tech, Jai Shriram Engineering College, CGPA: 8.3 (2022–Present)
+
+HSC, Universal Matric Hr. Sec. School – 80% (2022)
+
+SSLC, Universal Matric Hr. Sec. School – 72% (2020)
+
+Skills:
+
+Programming: Python, SQL
+
+Web: HTML, CSS
+
+Tools: Power BI, Excel
+
+Specialization: Machine Learning, Data Science
+
+Projects:
+
+AI Project Proposal Generator – AI/ML, NLP, Python (Smart project idea generator using NLP)
+
+Snapnplate Detection – Object Detection (OpenCV & ML for vehicle tracking and license plate identification)
+
+Certifications: Cyber Security (NPTEL), Data Warehouse (Microsoft), Power BI (Infosys Springboard)
+
+Internships:
+
+Data Analyst Intern – Infosys Springboard (Built interactive dashboards on GDP & productivity of Indian cities using Power BI and DAX; SQL & Excel preprocessing)
+
+Machine Learning Intern – Altruisty Innovation (Developed project recommender using NLP; worked in a 4-member team)
+
+In-Plant Trainings: Web development (NXTLOGIC SOLUTIONS), Python with Django (ACCENT TECHNO SOFT)
+
+Workshops & Achievements: National-level Ethical Hacking workshop, Machine Learning workshop (HENOSIS 2K23), First Rank – Thulir State-Level Talent Test, Gold Medal – Throw Ball Tournament
+
+Extra Roles: Placement coordinator, organized recruitment activities, and guided students.
+
+Portfolio Requirements:
+
+Sections: Home, About, Skills, Projects, Certifications, Internships, Achievements, Contact.
+
+Hero Section: Full-screen background with your name, title (e.g., "Aspiring Data Scientist | Machine Learning Enthusiast"), and buttons linking to LinkedIn & GitHub.
+
+Projects Section: Display projects as responsive cards with hover animations, short descriptions, and GitHub/demo buttons.
+
+Skills Section: Use icons and progress bars or tags styled with Tail
