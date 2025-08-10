@@ -16,7 +16,7 @@ export default function ProjectsSection() {
       tags: ["Python", "NLP", "AI/ML"],
       backgroundImage: "https://images.unsplash.com/photo-1555255707-c07966088b7b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=400",
       category: "AI/ML",
-      githubUrl: "https://github.com/Anuxshree/pitch-map"
+      githubUrl: "https://github.com/Anuxshree/PitchMap"
     },
     {
       title: "Snapnplate Detection",
@@ -24,7 +24,7 @@ export default function ProjectsSection() {
       tags: ["OpenCV", "Machine Learning", "Object Detection"],
       backgroundImage: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=400",
       category: "Computer Vision",
-      githubUrl: "https://github.com/Anuxshree/snapnplate"
+      githubUrl: "https://github.com/Anuxshree/Snapnplate"
     }
   ];
 
